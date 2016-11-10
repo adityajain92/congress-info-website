@@ -1,0 +1,93 @@
+.navbar-fixed-left {
+    width: 11%;
+    border-radius: 0;
+    height: 100%;
+    float: left;
+    position: fixed;
+}
+
+.navbar-fixed-left .navbar-nav>li {
+    float: none;
+    /* Cancel default li float: left */
+    width: 100%;
+}
+
+#stackicon {
+    cursor: pointer;
+}
+
+.progress {
+    height: 3em;
+}
+
+table#comtable th,
+table#comtable td,
+table#legtable th,
+table#legtable td,
+table#housetable th,
+table#housetable td,
+table#senatetable th,
+table#senatetable td,
+table#billtable th,
+table#billtable td,
+table#nametable td,
+table#termtable td,
+table#newbilltable th,
+table#newbilltable td,
+table#activebilltable th,
+table#activebilltable td,
+table#billinfotable td,
+table#comhousetable th,
+table#comhousetable td,
+table#comsenatetable th,
+table#comsenatetable td,
+table#comjointtable th,
+table#comjointtable td,
+table#comfavtable th,
+table#comfavtable td,
+table#combilltable th,
+table#combilltable td {
+    font-size: 13px;
+}
+
+@media (max-device-width: 768px) {
+    #legisNav,
+    #billNav,
+    #CommNav,
+    #favNav,
+    #info_bill_pdf {
+        display: none;
+    }
+    #comtable tr>*:nth-child(3) {
+        display: none;
+    }
+    #billtable tr>*:nth-child(2),
+    #billtable tr>*:nth-child(3),
+    #billtable tr>*:nth-child(4),
+    #billtable tr>*:nth-child(5) {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #legisNav,
+    #billNav,
+    #CommNav,
+    #favNav,
+    #info_bill_pdf {
+        display: none;
+    }
+    #comtable tr>*:nth-child(3) {
+        display: none;
+    }
+    #billtable tr>*:nth-child(2),
+    #billtable tr>*:nth-child(3),
+    #billtable tr>*:nth-child(4),
+    #billtable tr>*:nth-child(5) {
+        display: none;
+    }
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
